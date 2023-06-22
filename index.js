@@ -7,6 +7,6 @@ dotenv.config();
 //
 const app = require("./app");
 server.use("/", app);
-require("./Connection/Configure");
+require("./Connection/Connect");
 
 server.listen(8000);
